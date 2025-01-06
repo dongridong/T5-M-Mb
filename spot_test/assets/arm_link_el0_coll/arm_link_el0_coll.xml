@@ -1,0 +1,20 @@
+<mujoco model="arm_link_el0_coll">
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh"/>
+    </default>
+  </default>
+  <asset>
+    <mesh file="arm_link_el0_coll.obj"/>
+    <mesh file="arm_link_el0_coll_collision_0.obj"/>
+  </asset>
+  <worldbody>
+    <body name="arm_link_el0_coll">
+      <geom mesh="arm_link_el0_coll" class="visual"/>
+      <geom mesh="arm_link_el0_coll_collision_0" rgba="0.7222567355278037 0.3747929702359698 0.5686872430537686 1" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

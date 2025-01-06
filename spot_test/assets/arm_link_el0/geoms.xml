@@ -1,0 +1,11 @@
+<mujoco>
+  <geom material="material_0" mesh="arm_link_el0" class="visual"/>
+  <geom mesh="arm_link_el0_collision_0" rgba="0.14537883226150639 0.07304031148847145 0.3059713383378655 1" class="collision"/>
+  <geom mesh="arm_link_el0_collision_1" rgba="0.5623320049737267 0.4561821666053738 0.0638910897722007 1" class="collision"/>
+  <geom mesh="arm_link_el0_collision_2" rgba="0.5421424482848506 0.02431753386936486 0.2843653849952138 1" class="collision"/>
+  <geom mesh="arm_link_el0_collision_3" rgba="0.06207057132363458 0.39119450375122766 0.6131868860504345 1" class="collision"/>
+  <geom mesh="arm_link_el0_collision_4" rgba="0.18992594152167197 0.034750009022467054 0.07096138108734928 1" class="collision"/>
+  <geom mesh="arm_link_el0_collision_5" rgba="0.44728606839368845 0.5424845634280976 0.7074619563186242 1" class="collision"/>
+  <geom mesh="arm_link_el0_collision_6" rgba="0.5601998474783682 0.07633816935654336 0.47144526816990084 1" class="collision"/>
+  <geom mesh="arm_link_el0_collision_7" rgba="0.41446861712799876 0.7561463993066958 0.6725207254429776 1" class="collision"/>
+</mujoco>
