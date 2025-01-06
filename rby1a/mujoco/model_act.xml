@@ -23,11 +23,11 @@
     <velocity name="left_wheel_act" joint="left_wheel" ctrlrange="-3.14 3.14" />
     <velocity name="right_wheel_act" joint="right_wheel" ctrlrange="-3.14 3.14" />
 
-    <position name="link1_act" joint="torso_1" ctrlrange="-1.0472 1.52173" />
-    <position name="link2_act" joint="torso_2" ctrlrange="-2.47837 1.5708" />
-    <position name="link3_act" joint="torso_3" ctrlrange="-0.785398 1.5708" />
-    <position name="link4_act" joint="torso_4" ctrlrange="-0.523599 0.523599" />
-    <position name="link5_act" joint="torso_5" ctrlrange="-1.5708 1.5708" />
+    <position name="link1_act" joint="torso_0" ctrlrange="-1.0472 1.52173" />
+    <position name="link2_act" joint="torso_1" ctrlrange="-2.47837 1.5708" />
+    <position name="link3_act" joint="torso_2" ctrlrange="-0.785398 1.5708" />
+    <position name="link4_act" joint="torso_3" ctrlrange="-0.523599 0.523599" />
+    <position name="link5_act" joint="torso_4" ctrlrange="-1.5708 1.5708" />
 
     <position name="right_arm_1_act" joint="right_arm_0" ctrlrange="-2.35619 2.35619" />
     <position name="right_arm_2_act" joint="right_arm_1" ctrlrange="-3.14159 0.05" />
